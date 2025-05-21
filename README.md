@@ -5,7 +5,8 @@
 
 Advanced Python-based tool to detect Spectre and Meltdown CPU vulnerabilities, supporting multiple variants and providing detailed system analysis across Linux, macOS, and Windows platforms.
 
-   ![image](https://github.com/user-attachments/assets/f8263e7f-edef-4c28-86e6-c52abd519df0)
+![image](https://github.com/user-attachments/assets/d16b75fd-fc11-4d44-a2b1-96fe7603bcea)
+
 
 
 ## Screenshots
