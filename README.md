@@ -5,6 +5,15 @@
 
 Advanced Python-based tool to detect Spectre and Meltdown CPU vulnerabilities, supporting multiple variants and providing detailed system analysis across Linux, macOS, and Windows platforms.
 
+## Screenshots
+
+| System Overview | Vulnerability Summary |
+|-----------------|-----------------------|
+| ![System Check](screenshots/system-check.png) | ![Vulnerability Results](screenshots/vuln-results.png) |
+| *Hardware detection and configuration analysis* | *Detailed vulnerability status output* |
+
+*(Actual screenshots should be added to repository's `/screenshots` directory and paths updated accordingly)*
+
 ## Features
 
 ### Comprehensive Vulnerability Detection
@@ -87,26 +96,6 @@ sudo python3 advanced_meltdown_spectre_checker.py \
 | `--debug`     | Show full exception traces           |
 | `--quick`     | Faster scan with reduced accuracy    |
 | `--no-report` | Skip report file generation          |
-
-## Screenshots
-
-| System Overview | Vulnerability Summary |
-|-----------------|-----------------------|
-| ![System Check](screenshots/system-check.png) | ![Vulnerability Results](screenshots/vuln-results.png) |
-| *Hardware detection and configuration analysis* | *Detailed vulnerability status output* |
-
-*(Actual screenshots should be added to repository's `/screenshots` directory and paths updated accordingly)*
-
-
-This consolidated version:
-1. Maintains all critical information
-2. Uses proper hierarchy with clear section headers
-3. Integrates code blocks/tables/images appropriately
-4. Presents contact info prominently
-5. Includes placeholder paths for screenshots
-6. Links to external security resources
-7. Follows standard GitHub README conventions
-
 
 
 ## Contributing
