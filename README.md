@@ -1,28 +1,70 @@
 # Spectre & Meltdown Vulnerability Checker
 
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg) 
+![Python 3](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 
-Advanced Python-based tool to detect Spectre and Meltdown CPU vulnerabilities, supporting multiple variants and providing detailed system analysis.
+Advanced Python-based tool to detect Spectre and Meltdown CPU vulnerabilities, supporting multiple variants and providing detailed system analysis across Linux, macOS, and Windows platforms.
 
 ## Features
 
-- **Comprehensive Vulnerability Detection**
+### Comprehensive Vulnerability Detection
+- **Meltdown & Spectre Family**
   - Meltdown (CVE-2017-5754)
-  - Spectre variants (v1, v2, v3a, v4)
-  - MDS (CVE-2019-11091), L1TF (CVE-2018-3620), Zombieload (CVE-2018-12130), and more
-- **System Analysis**
-  - CPU vendor/model detection
-  - Microcode version checks
-  - Hypervisor detection
-  - Kernel protection status (KPTI, Retpoline, SMAP/SMEP)
-- **Advanced Tests**
-  - Cache timing analysis
-  - Page fault behavior
-  - Speculative execution simulations
-- **Report Generation**
-  - Detailed vulnerability summary
-  - Export results to `vulnerability_report.txt`
+  - Spectre v1 - Bounds Check Bypass (CVE-2017-5753)
+  - Spectre v2 - Branch Target Injection (CVE-2017-5715)
+  - Spectre v3a - Rogue System Register Read (CVE-2018-3640)
+  - Spectre v4 - Speculative Store Bypass (CVE-2018-3639)
 
+- **Microarchitectural Vulnerabilities**
+  - MDS (CVE-2019-11091)
+  - L1TF (CVE-2018-3620)
+  - Zombieload (CVE-2018-12130)
+  - RIDL (CVE-2019-11091)
+  - Fallout (CVE-2018-12126)
+  - TAA (CVE-2019-11135)
+
+### System Analysis
+- CPU vendor/model detection (Intel, AMD, ARM)
+- Microcode version verification
+- Virtualization environment detection (KVM, VMware, Hyper-V)
+- Kernel protection checks:
+  - KPTI/KAISER (Kernel Page Table Isolation)
+  - Retpoline (Spectre v2 mitigation)
+  - SMEP/SMAP (Supervisor Mode Access Prevention)
+  - IBRS/IBPB (Indirect Branch Restrictions)
+  - SSBD (Speculative Store Bypass Disable)
+
+### Advanced Diagnostics
+- Cache timing side-channel analysis
+- Page fault speculation behavior tests
+- Kernel symbol exposure checks
+- TSX Asynchronous Abort detection
+- Memory access pattern profiling
+- Retpoline implementation validation
+
+### Reporting
+- Color-coded terminal output
+- Detailed vulnerability summary
+- Exportable report (vulnerability_report.txt)
+- Mitigation recommendations
+- Cross-platform support (Linux/macOS/Windows)
+
+## Installation
+
+**Requirements:**
+- Python 3.6+
+- Root access (for full vulnerability checks)
+- GCC compiler (for dynamic test compilation)
+
+```bash
+git clone https://github.com/alyaparan/spectre-meltdown.git
+```
+```bash
+cd spectre-meltdown
+```
+```bash
+pip install colorama  # Required for colored output
+```
 ## Installation
 
 ```bash
