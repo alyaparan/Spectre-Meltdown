@@ -66,7 +66,7 @@ If you find a bug or vulnerability:
 - Include detailed steps to reproduce, expected vs. actual behavior, and relevant logs or screenshots.
 
 **Security Issues:**  
-Please report security vulnerabilities privately by emailing [your_email@example.com] or via GitHub’s security advisory feature.
+Please report security vulnerabilities privately by emailing [mail@alikparanyan.com] or via GitHub’s security advisory feature.
 
 ## Community and Support
 
@@ -78,6 +78,5 @@ Please report security vulnerabilities privately by emailing [your_email@example
 By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
 Thank you for helping make Spectre-Meltdown better!
-```
 
 Feel free to adjust sections (like the security contact email) to fit your preferences and team practices!
