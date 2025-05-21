@@ -78,5 +78,3 @@ Please report security vulnerabilities privately by emailing [mail@alikparanyan.
 By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
 Thank you for helping make Spectre-Meltdown better!
-
-Feel free to adjust sections (like the security contact email) to fit your preferences and team practices!
