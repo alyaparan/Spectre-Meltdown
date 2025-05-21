@@ -35,8 +35,9 @@ cd spectre-meltdown
 pip install colorama  # Required for colored output
 ```
 # Basic scan (requires root for full detection)
+```bash
 sudo python3 advanced_meltdown_spectre_checker.py
-
+```
 
 # Advanced options
 ```bash
