@@ -75,3 +75,21 @@ This consolidated version:
 5. Includes placeholder paths for screenshots
 6. Links to external security resources
 7. Follows standard GitHub README conventions
+
+
+
+## Contributing
+
+Contributions are welcome! Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests or reporting issues.
+
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand how contributors are expected to behave.
+
+## Contact
+
+For questions or concerns, you can reach out to the project creator:
+
+- Website: [alikparanyan.com](http://alikparanyan.com)
+- Email: [mail@alikparanyan.com](mailto:mail@alikparanyan.com)
+- Personal Gmail: [alikparanyan@gmail.com](mailto:alikparanyan@gmail.com)
