@@ -112,6 +112,6 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand how contri
 
 For questions or concerns, you can reach out to the project creator:
 
-- Website: [alikparanyan.com](http://alikparanyan.com)
+- Website: [www.alikparanyan.com](http://alikparanyan.com)
 - Email: [mail@alikparanyan.com](mailto:mail@alikparanyan.com)
 - Personal Gmail: [alikparanyan@gmail.com](mailto:alikparanyan@gmail.com)
