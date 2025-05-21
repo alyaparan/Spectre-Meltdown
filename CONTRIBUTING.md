@@ -1,6 +1,3 @@
-Here’s a sample CONTRIBUTING.md for your project, tailored for a Python-based security tool with a focus on clarity, code quality, and community collaboration:
-
-```markdown
 # Contributing to Spectre-Meltdown
 
 Thank you for your interest in contributing to **Spectre-Meltdown**! Your help is invaluable for improving this tool and ensuring robust detection of CPU vulnerabilities. Please read these guidelines carefully to make your contribution process smooth and effective.
@@ -16,7 +13,6 @@ Thank you for your interest in contributing to **Spectre-Meltdown**! Your help i
 - [Community and Support](#community-and-support)
 - [License](#license)
 
----
 
 ## Code of Conduct
 
@@ -80,8 +76,6 @@ Please report security vulnerabilities privately by emailing [your_email@example
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
-
----
 
 Thank you for helping make Spectre-Meltdown better!
 ```
